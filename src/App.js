@@ -3,6 +3,7 @@ import HeroSection from './Components/HeroSection';
 import Navbar from './Components/Navbar';
 import SkillSection from './Components/SkillSection';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 // import Navbar from './Components/Navbar';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <AboutSection/>
       <SkillSection />
       <Contact />
+      <Footer />
     </div>
   );
 }
