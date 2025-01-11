@@ -1,0 +1,30 @@
+/* Animation for Modal Content */
+@keyframes modalShow {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animation for Backdrop */
+@keyframes backdropShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply animations to elements */
+.animate-modal-show {
+  animation: modalShow 0.5s ease-out forwards;
+}
+
+.animate-backdrop-show {
+  animation: backdropShow 0.3s ease-out forwards;
+}
