@@ -16,7 +16,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-10">
+    <div className="container bg-gray-100 mx-auto px-4 py-10">
       {/* Section Title */}
       <motion.h2
         initial={{ opacity: 0 }}
