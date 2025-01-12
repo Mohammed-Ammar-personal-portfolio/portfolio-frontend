@@ -60,7 +60,10 @@ const SkillCard = ({ category, skills }) => (
 );
 
 const SkillsSection = () => (
-  <div className="container mx-auto px-4 py-10">
+  <div
+    id="skills"
+    className="container mx-auto px-4 py-20 bg-gray-100 relative z-10"
+  >
     <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
       Skills & Technologies
     </h2>
@@ -83,5 +86,6 @@ const SkillsSection = () => (
     </motion.div>
   </div>
 );
+
 
 export default SkillsSection;
